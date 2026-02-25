@@ -244,6 +244,7 @@
     </main>
 
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none"></iframe>
+    <!-- Form configurado com os IDs corretos identificados -->
     <form id="googleForm" action="https://docs.google.com/forms/u/0/d/1Qrl4Zi4wo0_Ozm4NVlUawmHcCPfOGfUiuhFzVIhFxsA/formResponse" method="POST" target="hidden_iframe" class="hidden">
         <input type="hidden" name="entry.435378479" id="g_name">
         <input type="hidden" name="entry.482089224" id="g_email">
@@ -321,7 +322,7 @@
                     { id: 5, text: "Quão fácil é encontrar uma resposta específica dentro de relatórios densos ou normas?", 
                       options: [
                           { val: 1, label: "A) Nada fácil: Leitura manual de dezenas de páginas." },
-                          { val: 3, label: "B) Fácil: Busca por palavras-chave que mostra o arquivo, mas não explicam conteúdo." },
+                          { val: 3, label: "B) Fácil: Busca por palavras-chave que mostram o arquivo, mas não explicam conteúdo." },
                           { val: 5, label: "C) Muito Fácil: IA entende perguntas simples e extrai a resposta exata na hora." }
                       ], analysis: { 
                           low: "As barreiras ao conhecimento técnico sugerem que a fundamentação das decisões pode ser demorada. A busca manual por normas pode consumir tempo precioso de especialistas, o que poderia favorecer interpretações diferentes para casos iguais, podendo gerar insegurança administrativa no órgão.", 
